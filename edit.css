@@ -125,8 +125,3 @@ hr {
     position: relative;
     bottom: 9px;
 }
-@media (max-width:650px): {
-    .form {
-        flex-direction: column;
-    }
-}
