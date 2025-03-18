@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="edit.css">
+    <link rel="icon" href="icon360.jpg">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h1>Student Registration Form</h1>
+            <h4>Fill in the details for every section and make sure the given details are valid</h4>
+            <br><hr>
+        <div class="details">
+        <h3>Student Details:</h3>
+        <div class="form-row">    
+            <div class="form">
+                <label for="name">Student Name:</label>
+                <input type="text" id="name" placeholder="Name of the student" required>
+            </div>
+            <div class="form">
+                <label for="roll-number">Roll Number:</label>
+                <input type="text" id="roll-number" placeholder="Student's Roll Number" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form">
+                <label for="phone">Student Ph.No.:</label>
+                <input type="tel" id="phone" pattern="[0-9]{10}" placeholder="Student's Number" required>
+            </div>
+            <div class="form">
+                <label for="email">Student Email:</label>
+                <input type="email" id="email" placeholder="Student Email" required>
+            </div>
+        </div>
+        <div class="gender">
+            <h3>Gender:</h3>
+            <div class="form">
+                <label for="male" id="male">Male:</label>
+                <input type="radio">
+            </div>
+            <div class="form">
+                <label for="female" id="female">Female:</label>
+                <input type="radio">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form">
+                <label for="father-name">Father's Name:</label>
+                <input type="text" id="father-name" placeholder="Father's name" required>
+            </div>
+            <div class="form">
+                <label for="mother-name">Mother's Name:</label>
+                <input type="text" id="mother-name" placeholder="Mother's name" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form">
+                <label for="father-phone">Father's Ph.No.:</label>
+                <input type="tel" id="father-phone" pattern="[0-9]{10}" placeholder="Father's Phone Number" required>
+            </div> 
+            <div class="form">
+                <label for="mother-phone">Mother's Ph.No.:</label>
+                <input type="tel" id="mother-phone" pattern="[0-9]{10}" placeholder="Mother's Phone Number" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form">
+                <label for="father-email">Father Email:</label>
+                <input type="email" id="father-email" placeholder="Father Email" required>
+            </div>
+            <div class="form">
+                <label for="mother-email">Mother Email:</label>
+                <input type="email" id="mother-email" placeholder="Mother Email" required>
+            </div>
+        </div>
+        </div>
+        <hr>
+        <div class="edu">
+        <h3>Education:</h3>
+        <div class="form-row">
+            <div class="form">
+                <label for="class">Class/Grade:</label>
+                <input type="text" id="class" placeholder="Class" required>
+            </div>
+            <div class="form">
+                <label for="grade">Grade/CGPA:</label>
+                <input type="text" id="grade" placeholder="Student marks or CGPA" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form">
+                <label for="marks">Marks:</label>
+                <input type="text" id="marks" placeholder="Student marks or CGPA" required>
+            </div>
+            <div class="form">
+                <label for="percentage">Percentage:</label>
+                <input type="text" id="percentage" placeholder="Percentage acquired" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form">
+                <label for="10thfile">Upload 10th File</label>
+                <input type="file">
+            </div>
+            <div class="form">
+                <label for="12thfile">Upload 12th File</label>
+                <input type="file">
+            </div>
+        </div>
+          <hr>  
+        <div class="address">
+        <h3>Address:</h3>
+        <div class="form-row">
+            <div class="form">
+                <label for="street">Street Name:</label>
+                <input type="text" id="street" placeholder="Street name" required>
+            </div>
+            <div class="form">
+                <label for="village">Village:</label>
+                <input type="text" id="village" placeholder="Village name" required>
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form">
+                <label for="mandal">Mandal:</label>
+                <input type="text" id="mandal" placeholder="Mandal name" required>
+            </div>
+            <div class="form">
+                <label for="district">District:</label>
+                <input type="text" id="district" placeholder="District name" required>
+            </div>
+        </div>
+        </div><hr><br>
+            <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
