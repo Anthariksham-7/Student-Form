@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form</title>
+    <style>
+       html {
+             background-image: none;
+             
+       }
+       
+       .form {
+            position: relative;
+            left: 200px;
+            width: 200px;
+            background-color: aqua;
+        }
+
+        #btn {
+            position: relative;
+            left: 70px;
+        }
+        .s {
+            position: relative;
+            left: 0px;
+        }
+
+        input{
+            background-color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <form  class="form" action="">
+       <label class="s" for="name">First Name :</label><br>
+       <input type="name" required><br><br>
+       <label class="s"  for="">Date of Birth : </label><br>
+       <input type="date" required><br><br>
+       <label class="s"  for="">Email :</label><br>
+       <input type="email" required><br><br>
+       <label class="s"  for="">Phone Number :</label><br>
+       <input type="number" required><br><br>
+       <input type="checkbox">Male
+       <input type="checkbox">Female <br><br>
+       <button style="background-color: chartreuse;" id="btn"> Click </button>
+
+
+    </form>
+</body>
+</html>
